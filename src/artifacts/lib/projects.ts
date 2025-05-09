@@ -9,7 +9,7 @@ interface ProjectData {
 }
 
 export const PREDEFINED_PROJECTS: ProjectData = {
-  "palmira": [
+  "milagro-1-palmira": [
     {
         "id": 1,
         "title": "Disponibilización en Mongo de ICA",
@@ -314,7 +314,7 @@ export const PREDEFINED_PROJECTS: ProjectData = {
   "gestores": [
     {
         "id": 1,
-        "title": "Gestor de tributos",
+        "title": "🆙 Gestor de tributos (flujo de migración)",
         "startDate": "2024-11-01",
         "endDate": "2025-02-28",
         "team": "Gestores",
@@ -323,9 +323,9 @@ export const PREDEFINED_PROJECTS: ProjectData = {
     },
     {
         "id": 2,
-        "title": "Milagro 1 - Soporte a otros tributos",
-        "startDate": "2025-01-15",
-        "endDate": "2025-05-30",
+        "title": "🙏 Milagro 1 - Soporte a otros tributos",
+        "startDate": "2025-01-30",
+        "endDate": "2025-06-30",
         "team": "Gestores",
         "description": "Expansión del sistema para gestionar múltiples tipos de tributos (predial, ICA, multas, etc.) además del alumbrado público y TESCC actuales.",
         "progress": 70
@@ -334,16 +334,16 @@ export const PREDEFINED_PROJECTS: ProjectData = {
         "id": 3,
         "title": "Consulta en la fuente única de datos",
         "startDate": "2025-05-01",
-        "endDate": "2025-06-15",
+        "endDate": "2025-06-30",
         "team": "Gestores",
         "description": "Tarea de apoyo al desarrollo del gestor de almacenamiento",
-        "progress": 0
+        "progress": 5
     },
     {
         "id": 4,
-        "title": "Integración entre gestores y gestor de almacenamiento",
-        "startDate": "2025-05-01",
-        "endDate": "2025-06-15",
+        "title": "Integración entre gestores",
+        "startDate": "2025-08-01",
+        "endDate": "2025-10-30",
         "team": "Gestores",
         "description": "Comunicación efectiva entre los diferentes gestores mediante eventos, asegurando el flujo correcto de información.",
         "progress": 0
@@ -352,14 +352,14 @@ export const PREDEFINED_PROJECTS: ProjectData = {
         "id": 5,
         "title": "Manejo de errores, reintentos y observabilidad",
         "startDate": "2025-04-01",
-        "endDate": "2025-06-15",
+        "endDate": "2025-06-30",
         "team": "Gestores",
         "description": "Implementación de mecanismos para detectar, reportar y corregir errores, con capacidad de reintentos automáticos y monitoreo completo del sistema.",
         "progress": 30
     },
     {
         "id": 6,
-        "title": "Gestor de recaudo",
+        "title": "💵 Gestor de recaudo",
         "startDate": "2025-03-01",
         "endDate": "2025-06-30",
         "team": "Gestores",
@@ -368,9 +368,9 @@ export const PREDEFINED_PROJECTS: ProjectData = {
     },
     {
         "id": 7,
-        "title": "Gestor de cartera",
+        "title": "💼 Gestor de cartera",
         "startDate": "2025-03-01",
-        "endDate": "2025-07-30",
+        "endDate": "2025-08-30",
         "team": "Gestores",
         "description": "Sistema que mantiene actualizado el estado de cuenta de cada contribuyente, calculando saldos e intereses en tiempo real.",
         "progress": 20
@@ -378,8 +378,17 @@ export const PREDEFINED_PROJECTS: ProjectData = {
     {
         "id": 8,
         "title": "Integración de \"Arquitectura Nueva\" y \"Arquitectura Legacy\"",
-        "startDate": "2025-06-30",
-        "endDate": "2025-08-30",
+        "startDate": "2025-08-01",
+        "endDate": "2025-10-30",
+        "team": "Gestores",
+        "description": "Estrategia para mantener operativos los procesos actuales mientras se implementan los nuevos componentes, asegurando una transición gradual.",
+        "progress": 0
+    },
+    {
+        "id": 9,
+        "title": "🏁 Salida a producción MVP Gestores",
+        "startDate": "2025-11-01",
+        "endDate": "2025-11-30",
         "team": "Gestores",
         "description": "Estrategia para mantener operativos los procesos actuales mientras se implementan los nuevos componentes, asegurando una transición gradual.",
         "progress": 0
