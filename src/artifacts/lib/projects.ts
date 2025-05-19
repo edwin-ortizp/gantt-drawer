@@ -12,12 +12,32 @@ export const PREDEFINED_PROJECTS: ProjectData = {
   "milagro-1-palmira": [
     {
         "id": 1,
-        "title": "Disponibilización en Mongo de ICA",
+        "title": "Disponibilización en Mongo de ICA (Deudas)",
         "startDate": "2025-04-14",
         "endDate": "2025-04-30",
         "team": "Migracion",
         "description": "",
+        "progress": 90,
+        "responsable": "milagro-1"
+    },
+    {
+        "id": 1,
+        "title": "Disponibilización en Mongo de ICA (Titulos ejecutivos)",
+        "startDate": "2025-04-14",
+        "endDate": "2025-05-12",
+        "team": "Migracion",
+        "description": "",
         "progress": 70,
+        "responsable": "milagro-1"
+    },
+    {
+        "id": 1,
+        "title": "Disponibilización en Mongo de ICA (Expedientes)",
+        "startDate": "2025-05-13",
+        "endDate": "2025-05-17",
+        "team": "Migracion",
+        "description": "",
+        "progress": 50,
         "responsable": "milagro-1"
     },
     {
@@ -33,9 +53,29 @@ export const PREDEFINED_PROJECTS: ProjectData = {
     {
         "id": 3,
         "title": "Paso a Staging",
-        "startDate": "2025-04-30",
-        "endDate": "2025-05-01",
+        "startDate": "2025-05-09",
+        "endDate": "2025-05-15",
         "team": "Gestores",
+        "description": "",
+        "progress": 50,
+        "responsable": "milagro-1"
+    },
+    {
+        "id": 3,
+        "title": "Paso a producción",
+        "startDate": "2025-06-02",
+        "endDate": "2025-06-06",
+        "team": "Gestores",
+        "description": "",
+        "progress": 0,
+        "responsable": "milagro-1"
+    },
+    {
+        "id": 3,
+        "title": "Migración de expedientes de ICA y PREDIAL",
+        "startDate": "2025-05-16",
+        "endDate": "2025-05-20",
+        "team": "Migracion",
         "description": "",
         "progress": 0,
         "responsable": "milagro-1"
@@ -43,8 +83,8 @@ export const PREDEFINED_PROJECTS: ProjectData = {
     {
         "id": 4,
         "title": "Pruebas con Tributaria (UAT)",
-        "startDate": "2025-05-13",
-        "endDate": "2025-05-15",
+        "startDate": "2025-05-21",
+        "endDate": "2025-05-28",
         "team": "Migracion",
         "description": "",
         "progress": 0,
